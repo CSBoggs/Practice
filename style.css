@@ -1,0 +1,137 @@
+* {
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #F7F7F7;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    align-self: left;
+    text-shadow: 2px 2px 2px rgb(17, 17, 17);
+    margin-right: auto;
+}
+
+
+nav {
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+    padding: 16px;
+    gap: 6px;
+}
+
+nav > a {
+    justify-content: center;
+}
+
+#ratlogo {
+    width: 10rem;
+    height: auto
+}
+
+main {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+}
+
+.usercards {
+    border: 2px solid black;
+    margin: 8px;
+    text-decoration: none;
+    background-color: rgb(175, 211, 209);
+    border-radius: 2pt;
+    box-shadow: 4px 4px 4px rgb(17, 17, 17);
+}
+
+.usercards > p {
+    margin: 22px;
+    background-color: rgb(175, 211, 209);
+    font-size: 1.05em;
+}
+
+.usercards > a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+    left: 20px;
+    botton:2px;
+    text-shadow: 2px 2px 2px rgb(17, 17, 17);
+    border: 2px solid black;
+    border-radius: 4pt;
+    padding: 5px;
+    background-color: rgb(123, 150, 148);
+    box-shadow: 4px 4px 4px rgb(17, 17, 17);
+
+}
+
+.btn {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 4pt;
+    background-color: rgb(212, 168, 212);
+    align-self: center;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 4px rgb(17, 17, 17);
+    text-shadow: 2px 2px 2px rgb(17, 17, 17);
+}
+
+#uptotop {
+    position: relative;
+    top: 25px;
+    justify-self: center;
+    scroll-behavior: smooth;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+div1 {
+    display: grid;
+    width: 96vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 24px;
+    padding-bottom: 10px;
+    align-content: space-around;
+    overflow-wrap: normal;
+}
+
+.images {
+    border: 2px solid black;
+    border-radius: 3pt;
+    object-fit: cover;
+    width: 100%;
+    height: 48%;
+    box-shadow: 4px 4px 4px rgb(17, 17, 17);
+}
+
+.btn:hover {
+    background-color: rgb(158, 85, 103);
+    padding: 0.7rem;
+    border: 4px solid black;
+    transition: ease 200ms;
+}
+
+.btn2:hover {
+    background-color: rgb(78, 95, 94);
+    padding: 0.5rem;
+    border: 3px solid black;
+    transition: ease 100ms;
+}
